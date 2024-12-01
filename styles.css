@@ -63,3 +63,270 @@ h1 {
   color: #9c3a0c;
   transition: color 0.3s ease;
 }
+
+.carousel-inner img {
+  max-width: 80%; /* Make images smaller, adjust this percentage */
+  height: 60vh; /* Set height to 60% of the viewport height */
+  object-fit: cover; /* Ensure the image covers the space without distortion */
+  margin: 0 auto; /* Center the images */
+}
+
+/* Define a 3x3 grid layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between cards */
+}
+
+/* Card styling */
+.card {
+  width: 100%; /* Full width of each grid column */
+}
+
+/* Card image */
+.card-img-top {
+  width: 100%; /* Ensure image fits the card width */
+  height: auto;
+}
+
+/* Card body styling */
+.card-body {
+  padding: 1rem;
+}
+
+/* Container for grid */
+.container {
+  margin-top: 20px;
+}
+
+/* Define a 3x3 grid layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between cards */
+}
+
+/* Card styling */
+.card {
+  width: 100%; /* Full width of each grid column */
+  height: 350px; /* Fixed height for the cards */
+  display: flex;
+  flex-direction: column; /* To ensure the image and text are stacked properly */
+}
+
+/* Card image styling */
+.card-img-top {
+  width: 100%; /* Ensure the image takes the full width */
+  height: 200px; /* Fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+/* Card body styling */
+.card-body {
+  padding: 1rem;
+  flex-grow: 1; /* Make sure the text takes remaining space */
+}
+/* Ensure the cards fit within their container */
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Optionally, add a shadow to make the zoom effect more prominent */
+.card:hover img {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1); /* Zooms the image when hovering over the card */
+}
+
+/* Add some spacing between cards */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Ensure the card image stays fully inside the card */
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* General Body and Layout */
+body.membership {
+  background-color: #f8f9fa; /* Light background for membership page */
+  font-family: Arial, sans-serif;
+}
+
+/* Membership Plan Cards with Transparent Background */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+  background-color: transparent; /* Transparent background for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff; /* Primary blue color */
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Membership Plans Section with Transparent Background */
+.membership-plans {
+  padding: 60px 0;
+  background-color: transparent; /* Transparent background for this section */
+}
+
+.membership-plans h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.membership-plans .row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Call to Action Section with Transparent Background */
+.cta {
+  background-color: transparent; /* Transparent background for CTA */
+  padding: 50px 0;
+  color: #fff;
+}
+
+.cta h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta .btn {
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  background-color: #28a745; /* Green color for CTA button */
+  border-color: #28a745;
+  transition: background-color 0.3s;
+}
+
+.cta .btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer Section with Transparent Background */
+.footer {
+  background-color: transparent; /* Transparent footer */
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Membership Features Section with Transparent Background */
+.membership-features {
+  padding: 60px 0;
+  background-color: transparent; /* Transparent background for features */
+}
+
+.membership-features h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.membership-features .col-md-4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.membership-features h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.membership-features p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Contact Form Section with Transparent Background */
+.contact-form {
+  padding: 60px 0;
+  background-color: transparent; /* Transparent background for contact form */
+}
+
+.contact-form form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: transparent; /* Transparent background for form */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.contact-form .form-label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.contact-form .form-control {
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.contact-form .btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  border-color: #28a745;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.contact-form .btn:hover {
+  background-color: #218838; /* Darker green for button hover */
+}
