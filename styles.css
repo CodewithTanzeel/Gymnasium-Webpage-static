@@ -1,23 +1,44 @@
-.home {
-  background-image: url("assets/homepage.jpg");
-  background-size: cover; /* Ensures the image covers the entire screen */
-  background-position: center; /* Centers the image on the screen */
-  background-attachment: fixed; /* Keeps the background fixed during scrolling */
-  height: 100vh; /* Sets the height to be 100% of the viewport height */
-  width: 100%; /* Sets the width to be 100% of the viewport width */
-  margin: 0; /* Removes any default margin */
-}
-.about {
-  background-image: url("assets/aboutus.jpg");
-  background-size: cover; /* Ensures the image covers the entire screen */
-  background-position: center; /* Centers the image on the screen */
-  background-attachment: fixed; /* Keeps the background fixed during scrolling */
-  height: 100vh; /* Sets the height to be 100% of the viewport height */
-  width: 100%; /* Sets the width to be 100% of the viewport width */
-  margin: 0; /* Removes any default margin */
+/* Set a background image for the body */
+body.home {
+  background-image: url("/assests/homepage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.navbar-brand {
-    font-weight: bold;           
-    font-family: 'Arial', sans-serif;
+.paragraph {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+/* Background image for the About Us page */
+body.about {
+  background-image: url("/assests/aboutus.jpg"); /* Replace 'about-background.jpg' with your image path */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+}
+
+/* Optional: Style the heading for better visibility */
+h1 {
+  color: white; /* Adjust text color for readability */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow to the text */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Background image for the Membership page */
+body.membership {
+  background-image: url("/assests/membership.jpg"); /* Replace 'membership-background.jpg' with the correct image path */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+}
+
+/* Optional: Style the heading for better visibility */
+h1 {
+  color: white; /* Adjust text color for readability */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for enhanced readability */
+  text-align: center;
+  margin-top: 20px;
 }
