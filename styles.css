@@ -45,8 +45,8 @@ body.membership {
    Paragraph Styling
 ================================ */
 .paragraph {
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: #ffff00;
+
   padding: 20px;
 }
 
@@ -58,13 +58,14 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   text-align: center;
   margin-top: 20px;
+  padding: 30px;
 }
 
 /* ================================
    Navbar Styling
 ================================ */
 .navbar {
-  padding: 10px 20px;
+  padding: 20px 30px;
 }
 
 .navbar-brand:hover {
@@ -83,7 +84,7 @@ h1 {
 }
 
 .navbar .navbar-brand:hover {
-  color: var(--earthy-brown); /* Earthy brown on hover */
+  color: #6eb2cc;
   transition: color 0.3s ease;
 }
 
@@ -91,8 +92,8 @@ h1 {
    Carousel Image Styling
 ================================ */
 .carousel-inner img {
-  max-width: 80%;
-  height: 60vh;
+  max-width: 60%;
+  height: 30vh;
   object-fit: cover;
   margin: 0 auto;
 }
@@ -104,6 +105,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns of cards */
   gap: 20px;
+  padding: 20px;
 }
 
 .card {
@@ -113,7 +115,7 @@ h1 {
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: transparent;
@@ -121,7 +123,7 @@ h1 {
 }
 
 .card:hover {
-  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  transform: scale(1.15); /* Slightly enlarge the card on hover */
 }
 
 .card-img-top {
@@ -137,14 +139,14 @@ h1 {
 
 .card img {
   width: 100%;
-  height: 50%;
+  height: 100%;
 }
 
 /* ================================
    Membership Section
 ================================ */
 .membership-plans {
-  padding: 60px 0;
+  padding: 60px 10px;
   background-color: transparent;
 }
 
@@ -159,7 +161,7 @@ h1 {
 .membership-plans .row {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
 }
 
 /* ================================
@@ -190,7 +192,7 @@ h1 {
 
 .membership-features p {
   font-size: 1rem;
-  color: #666;
+  color: #ffffff;
 }
 
 /* ================================
@@ -206,7 +208,7 @@ h1 {
   margin: 0 auto;
   background-color: transparent;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(231, 116, 8, 0.1);
   padding: 30px;
 }
 
@@ -233,7 +235,7 @@ h1 {
 }
 
 .contact-form .btn:hover {
-  background-color: #218838; /* Darker green for button hover */
+  background-color: #6eb2cc;
 }
 
 /* ================================
@@ -254,6 +256,7 @@ h1 {
 
 .footer a:hover {
   text-decoration: underline;
+  color: #2f6a87;
 }
 
 /* ================================
@@ -284,7 +287,7 @@ h1 {
 }
 
 .cta .btn:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #6eb2cc;
 }
 
 /* ================================
