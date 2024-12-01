@@ -1,7 +1,3 @@
-Here’s a README template for your Gymnasium-Webpage-static project:
-
----
-
 # Gymnasium Webpage (Static)
 
 ## Description
